@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <title>ROHAN SPECTRAL ALERTS — magenta/cyan audio-reactive map</title>
+    <link rel="stylesheet" href="/src/ui/overlay.css" />
+  </head>
+  <body>
+    <div id="map"></div>
+    <div id="ui-root"></div>
+    <div id="welcome-modal" class="welcome-modal hidden">
+      <div class="welcome-card">
+        <h1>ROHAN SPECTRAL ALERTS</h1>
+        <p>Where do we start?</p>
+        <input id="welcome-input" type="text" placeholder="city or  lat,lng" autocomplete="off" />
+        <div class="welcome-row">
+          <button id="welcome-go" type="button">FLY IN</button>
+          <button id="welcome-random" type="button">SURPRISE ME</button>
+        </div>
+        <div id="welcome-err" class="welcome-err"></div>
+        <div class="welcome-hint">examples: <em>tokyo</em> · <em>19.43, -99.13</em> · <em>villahermosa</em></div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

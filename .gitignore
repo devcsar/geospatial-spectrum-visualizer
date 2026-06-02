@@ -1,0 +1,25 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+.vite
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+
+# Claude Code local settings (may contain machine-specific paths or keys)
+.claude/settings.local.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea
+.vscode
+*.swp
